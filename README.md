@@ -1,4 +1,4 @@
-# PUC-GCES-PY
-Material para o trabalho individual da disciplina de GERÊNCIA DE CONFIGURAÇÃO E EVOLUÇÃO DE SOFTWARE.
+##Disclaimer
 
-## Essa versão é em PYTHON
+Eu havia criado um repositório Fork do repositório original, porém percebi que deveria ser privado o repositório e criei este.
+Estou tentando reproduzir os commits que realizei no fork.
