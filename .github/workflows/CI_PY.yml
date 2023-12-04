@@ -36,9 +36,9 @@ jobs:
         sphinx-build -b html source _build/html
         echo 'Documentation built.'
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
+  #deploy:
+  #  needs: build
+  #  runs-on: ubuntu-latest
 
-    steps:
-    - name: Deploy para o https://pypi.orghttps://pypi.org
+   # steps:
+    #- name: Deploy para o https://pypi.orghttps://pypi.org
