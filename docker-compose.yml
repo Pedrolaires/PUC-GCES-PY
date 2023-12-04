@@ -1,12 +1,11 @@
 version: '3'
 services:
   app:
-    image: python:3.8
-    working_dir: /app 
-    
-    volumes:
-      - ./app:/src
-    command: python src/main.py 
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: python /app/src/main.py
+
   metabase:
     image: metabase/metabase
     ports:

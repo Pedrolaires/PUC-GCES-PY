@@ -9,4 +9,6 @@ COPY requirements.txt /app/
 RUN pip install --upgrade pip setuptools && \
     pip install -r requirements.txt
 
-CMD ["python", "src/main.py"]
+RUN "ls"
+
+CMD ["python", "./src/src/main.py"]
